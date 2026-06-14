@@ -2,10 +2,10 @@
 page_title                                :
 
 # App Info
-ios_app_id                                :                                           # Enter iOS App Store ID once published.
+ios_app_id                                : 6778051267
 ios_app_country                           : th
 
-appstore_link                             :                                           # Enter once live on App Store.
+appstore_link                             : https://apps.apple.com/us/app/tally-money-expense-budget/id6778051267
 playstore_link                            : https://play.google.com/store/apps/details?id=com.codedmark.tally
 presskit_download_link                    :
 
