@@ -1,0 +1,124 @@
+#page title
+page_title                                :
+
+# App Info
+ios_app_id                                :                                           # Enter iOS App Store ID once published.
+ios_app_country                           : th
+
+appstore_link                             :                                           # Enter once live on App Store.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.codedmark.tally
+presskit_download_link                    :
+
+app_icon                                  : assets/appicon.png
+app_name                                  : Tally - Personal Expense Manager
+app_price                                 : Free
+app_description                           : Track your daily spending, manage multiple accounts, and stay on top of your finances with Tally. Simple, private, and powerful — with budgets, recurring transactions, and financial tools built in.
+enable_smart_app_banner                   : true
+
+
+
+# Information About Yourself
+your_name                                 : Bancha Rajainthong
+your_link                                 : https://eswizardry.github.io/
+your_city                                 : Nong Bua Lam Phu
+email_address                             : eswizardry@gmail.com
+facebook_username                         :
+instagram_username                        : eswizardry
+twitter_username                          : eswizardry
+github_username                           : eswizardry
+youtube_username                          :
+
+
+
+# Feature List
+features                                  :
+
+  - title                                 : Track Every Expense
+    description                           : Log income, expenses, and transfers across multiple accounts. Know exactly where your money goes.
+    fontawesome_icon_name                 : wallet
+
+  - title                                 : Budgets & Categories
+    description                           : Set spending limits per category and see at a glance how much you have left each month.
+    fontawesome_icon_name                 : chart-pie
+
+  - title                                 : Recurring Transactions
+    description                           : Set up automatic entries for salaries, rent, subscriptions, and any regular payment.
+    fontawesome_icon_name                 : sync-alt
+
+  - title                                 : Financial Tools
+    description                           : Built-in calculators for compound savings, loans, and extra payments — no separate app needed.
+    fontawesome_icon_name                 : calculator
+
+  - title                                 : Multi-Currency Support
+    description                           : Manage accounts in any currency. Live exchange rates keep your balances accurate.
+    fontawesome_icon_name                 : coins
+
+  - title                                 : Cloud Backup & Export
+    description                           : Back up your data to your own Google Drive and export to CSV anytime — your data stays yours.
+    fontawesome_icon_name                 : cloud-upload-alt
+
+
+
+# Theme Settings
+topbar_color                              : "#1a1a2e"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png
+cover_overlay_color                       : "#1a1a2e"
+cover_overlay_transparency                : 0.75
+
+device_color                              : black
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#4f46e5"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#4f46e5"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
